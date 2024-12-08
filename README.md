@@ -7,9 +7,31 @@ Am finalizat sarcinile principale: rularea unei familii de input-uri, evaluarea 
 
 **SĂPTĂMÂNA 10**
 * ne-am consultat cu privire la problemele identificate în raportul nostru și am revizuit planul pentru săptămânile următoare
+* am modificat diagrama de clase (de modificat și descrierea din raport)
+* am făcut o primă variantă a diagramei de secvențe
 
-============================================================================================
+===========================================================================
+**INSTALARE MINISAT**
+*Windows*
+1. clonarea proiectului de la adresa:
+   https://github.com/niklasso/minisat
+2. configurarea mediului pentru compilarea (MinGW) și build-ul (CMake) proiectului clonat
+3. executarea în linia de comandă a comenzilor:
+   
+   `cmake -G "MinGW Makefiles" ..`
+   
+   `cmake --build .`
+4. în final, s-a generat executabilul *minisat.exe*
+5. rularea comenzii pentru testarea minisat:
+    `minisat.exe input.cnf`
 
+*Linux*
+1. executarea în terminal a comenzii:
+   `sudo apt install minisat`
+2. rularea comenzii pentru testarea minisat:
+   `minisat input.cnf`
+
+===========================================================================
 **MEMBRII ECHIPEI ȘI SARCINILE FIECĂRUIA**
 
 **Moise Alexandra** (alexandra.moise02@e-uvt.ro):
