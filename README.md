@@ -3,6 +3,9 @@
 În cadrul acestui proiect, ne propunem să analizăm funcționalitatea *MiniSat* prin testarea unui benchmark folosit în competiția *SAT Competition 2024*. 
 Am finalizat sarcinile principale: rularea unei familii de input-uri, evaluarea rezultatelor obținute și analiza codului la un nivel general, iar în săptămânile următoare ne propunem să aprofundăm și să clarificăm aspectele lucrării realizate până acum.
 
+**SĂPTĂMÂNA 13**
+* am modificat secțiunea pentru algoritmul CDCL 
+
 **SĂPTĂMÂNA 12**
 * am adăugat explicații pentru diagramele realizate
   
